@@ -1,11 +1,11 @@
-# Api Rest com Spring-Boot, Maven e Java
+# API Rest com Spring-Boot e Java
 
 ## Foi desenvolvido durante a aula da instrutora Fernanda Kipper um projeto simples de uma API Rest
 
-### Neste projeto utilizamos o Lombok, que gera automaticamente os Getters e Setters
+### Neste projeto utilizamos o LOMBOK, que gera automaticamente os Getters e Setters das nossas variáveis 
 
-As annotations por exemplo @SpringBootApplication define a porta em que o servidor Tomcat vai rodar e inicializa a aplicação
+As Annotations por exemplo @SpringBootApplication define a porta em que o servidor Tomcat vai rodar e inicializa a aplicação
 
-A annotation @RestController é onde definimos os métodos HTTP (get, post, put, patch)
+A annotation @RestController é onde são realizados os nossos cruds por meio dos métodos HTTP
 
-Para definir a rota do projeto utilizamos @RequestMapping("/contatos")
+Para definir a rota (Caminho) do projeto utilizamos @RequestMapping("/contatos")
